@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Dialog</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/header.png" class="img-header" alt="Coding"/>
+        <div>
+            <h1 class="header-text">Want to learn Coding ? 🤔 Will Teach !🤝</h1>
+            <img src="./img/qr.png" class="img-qr" alt="QR Code"/>
+            <p class="qr-description">
+             Scan the QR Code to know more about RTC..🚀
+            </p>
+        </div>
+
+    </div>
+
+    <button type="button" class="btn" onclick="openModel()">
+        Enroll Now 
+    </button>
+
+    <div class="overlay" id="overlay">
+        <div class="model">
+            <img src="./img/close.png" class="close-icon" alt="close" onclick="closeModel()"/>
+            <form class="form">
+
+                <h1 class="form-header">Enroll Now</h1>
+                <input
+                type="text"
+                placeholder="Enter name"
+                class="form-input"
+                />
+
+                <input
+                type="email"
+                placeholder="Enter email"
+                class="form-input"
+                />
+
+                <input
+                type="text"
+                placeholder="Enter phone number"
+                class="form-input"
+                />
+
+                <input
+                type="text"
+                placeholder="Enter clg/school name"
+                class="form-input"
+                />
+            </form>
+
+           
+            <button type="button" class="btn">Proced to Payment</button>
+            
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
